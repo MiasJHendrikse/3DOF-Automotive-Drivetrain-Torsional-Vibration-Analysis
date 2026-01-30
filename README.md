@@ -40,3 +40,27 @@ The main focus of the project is to investigate how **clutch damper stiffness** 
 
    ```matlab
    torsional_vibration_analysis
+
+The paramers of the system can be changed from within the MATLAB script (section is clearly commented).
+
+## Example Plots
+
+<p align="center">
+  <img src="images/Frequency_comparison.jpg" width="650"><br>
+  <i>Natural frequency comparison (red dashed line ≈ engine idling ~13.3 Hz)</i>
+</p>
+
+<p align="center">
+  <img src="images/modeshapes_case 1.jpg" width="650"><br>
+  <i>Mode shapes – Case 1: High stiffness damper (k₁ = 500 Nm/rad)</i>
+</p>
+
+<p align="center">
+  <img src="images/modeshapes_case 2.jpg" width="650"><br>
+  <i>Mode shapes – Case 2: Low stiffness damper (k₁ = 100 Nm/rad)</i>
+</p>
+
+<p align="center">
+  <img src="images/Transmission displacement plot - total.jpg" width="650"><br>
+  <i>Transmission displacement time response comparison</i>
+</p>
